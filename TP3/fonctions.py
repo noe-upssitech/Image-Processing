@@ -65,5 +65,5 @@ def display_EQM_graph(img_originale, debut, fin, pas):
     
 
 
-def floutage(img, ksize=5): # MARCHE PAS
-    return cv.blur(img.copy(), ksize)
+def floutage(img, ksize=5):
+    return cv.blur(img.copy(), ksize=(ksize,ksize))
